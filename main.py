@@ -15,7 +15,7 @@ def generate_palette():
             widget.destroy()
     for i in range(num_colors):
         color = generate_color()
-        color_label = tk.Label(color_frame, text=color, bg=color, width=10, height=5)
+        color_label = tk.Label(color_frame, text="", bg=color, width=10, height=5)
         color_label.grid(row=i, column=0, padx=5, pady=5)
         hex_label = tk.Label(color_frame, text=color, width=10)
         hex_label.grid(row=i, column=1, padx=5, pady=5)
