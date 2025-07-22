@@ -1,2 +1,6 @@
 #### Under progress yet. 
-The idea is to take a input picture and generate color palettes sorted based on their hues respectively. 
+
+One idea is to generate a random set of 5 colours using random hex values. Inspired and learnt from Alina Chudnova's youtube tutorial to Create a COlor Palette Generator.
+
+
+Another idea is to take an input picture and generate color palettes sorted based on their hues respectively. 
