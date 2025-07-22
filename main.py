@@ -22,15 +22,20 @@ def generate_palette():
 
 
 root = tk.Tk()
+root.configure(bg="#F5F5DC")
 root.title("Colour Palette Generator")
 root.geometry("300x600")
 
 
 select_filed = tk.StringVar()
 select = tk.OptionMenu(root, select_filed, "1", "2", "3", "4", "5")
+select.config(bg="#FFF8E7", fg="black", activebackground="#E8E4C9", activeforeground="black", highlightthickness=0)
+select["menu"].config(bg="#FFF8E7", fg="black")
 select.pack(side="top", pady=10)
+select_filed.set("1")  # Default value
 
-generate_button = tk.Button(root, text="Generate Palette", command=generate_palette)
+generate_button = tk.Button(root, text="Generate Palette", command=generate_palette, bg="#FFF8E7", fg="black", activebackground="#E8E4C9", activeforeground="black")
+
 generate_button.pack(side="top")
 
 color_frame = tk.Frame(root)
