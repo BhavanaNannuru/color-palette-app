@@ -6,3 +6,5 @@ One idea is to generate a random set of 5 colours using random hex values. Inspi
 Another idea is to take an input picture and generate color palettes sorted based on their hues respectively. 
 
 
+
+
